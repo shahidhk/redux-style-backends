@@ -6,7 +6,7 @@
 
 **Event trigger:**
 - Trigger: On insert on tweets table
-- Code: https://glitch.com/edit/#!/hilarious-pan (check index.js)
+- Code: https://glitch.com/edit/#!/pitch-waste (check index.js)
   - Remember to change endpoint to make sure mutation works
 
 ## Running the app:

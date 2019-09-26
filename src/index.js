@@ -5,14 +5,13 @@ import App from './App';
 
 import { ApolloClient } from 'apollo-client';
 import { InMemoryCache } from 'apollo-cache-inmemory';
-import { ApolloLink } from 'apollo-link';
 import { WebSocketLink } from 'apollo-link-ws';
 
 import { ApolloProvider } from "react-apollo";
 
 const client = new ApolloClient({
   link: new WebSocketLink({
-    uri: `wss://graphql-redux-demo.herokuapp.com/v1alpha1/graphql`,
+    uri: `wss://skm-test.herokuapp.com/v1/graphql`,
     options: {
       reconnect: true
     }
